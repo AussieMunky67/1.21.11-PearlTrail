@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pearltrail",
+  "version": "1.0.0",
+  "name": "Pearl Trail",
+  "description": "Ender pearls leave a purple particle trail that stays 3 seconds after landing, then wipes away. Client-side: works on any server.",
+  "authors": ["Munky"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.pearltrail.PearlTrailClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
